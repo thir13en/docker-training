@@ -18,3 +18,9 @@ List running containers. can be run with `-a` to list all running and non runnin
 
 ### List the images
 	docker images
+
+### Remove image
+	docker rmi <img-name>
+
+### Pull image but don't run container
+	docker pull <img-name>

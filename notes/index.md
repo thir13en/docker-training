@@ -2,3 +2,4 @@
 
 1. [Commands](commands.md)
 1. [General](General.md)
+1. [Glossary](glossary.md)

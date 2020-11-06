@@ -10,6 +10,9 @@ docker run redis
 ### docker version
 List the version details
 
+### docker info
+Relevant information on your docker install
+
 ### docker ps
 List running containers. can be run with `-a` to list all running and non running containers.
 
@@ -24,3 +27,9 @@ List running containers. can be run with `-a` to list all running and non runnin
 
 ### Pull image but don't run container
 	docker pull <img-name>
+
+### List all docker containers
+	docker container ls -a
+
+### Get details of a container
+	docker inspect <container-name>

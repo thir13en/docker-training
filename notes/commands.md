@@ -7,14 +7,14 @@ For example, for running `redis`:
 docker run redis
 ```
 
-### docker version
-List the version details
+### List the version details
+	docker version
 
-### docker info
-Relevant information on your docker install
+### Relevant information on your docker install
+	docker info
 
-### docker ps
-List running containers. can be run with `-a` to list all running and non running containers.
+### List running containers. can be run with `-a` to list all running and non running containers.
+	docker ps
 
 ### Remove a container
 	docker rm <container-id>
@@ -33,3 +33,6 @@ List running containers. can be run with `-a` to list all running and non runnin
 
 ### Get details of a container
 	docker inspect <container-name>
+
+### Access logs of a certain container
+	docker logs <container-name>

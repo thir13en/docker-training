@@ -36,3 +36,6 @@ docker run redis
 
 ### Access logs of a certain container
 	docker logs <container-name>
+
+### Stop running containers
+	docker container stop [OPTIONS] CONTAINER [CONTAINER...]

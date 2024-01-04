@@ -24,4 +24,13 @@ Creating an Image of the service helps in shipping it for deployments. Then it i
 * VMs cause redundancy and performance overhead
 
 ### Docker Engine
-Provides the virtualizatiin support on top of our OS to run multiple containers and grant them access to the resources of our OS.
+Provides the virtualizatiin support on top of our OS to run multiple containers and grant them access to the resources of our OS. It is actually a virtual machine whose sole purpuse is to run docker container.
+
+### Docker Desktop
+Makes sure Docker Engine works and it ships a Deamon and a CLI, plus a UI.
+
+### Docker Hub
+Cloud of images to share Docker pieces.
+
+### Docker Compose
+Docker task runner.
